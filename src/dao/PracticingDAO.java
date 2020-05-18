@@ -2,6 +2,6 @@ package dao;
 
 import models.Practicing;
 
-public interface PracticingDAO extends DAO<Practicing, Integer>{
+public interface PracticingDAO extends DAO<Practicing, Integer> {
 
 }
