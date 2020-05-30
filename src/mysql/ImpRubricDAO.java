@@ -8,7 +8,7 @@ import java.util.List;
 public class ImpRubricDAO implements RubricDAO {
     @Override
     public void insert(Rubric obj) {
-        
+
     }
 
     @Override
