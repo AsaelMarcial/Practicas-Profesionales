@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="527.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vistas.Login">
+   <children>
+      <ImageView fitHeight="527.0" fitWidth="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/background-2721423_960_720.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="71.0" layoutY="83.0" prefHeight="361.0" prefWidth="276.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <PasswordField layoutX="35.0" layoutY="181.0" prefHeight="37.0" prefWidth="178.0" promptText="Contraseña">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </PasswordField>
+            <TextField layoutX="35.0" layoutY="96.0" prefHeight="31.0" prefWidth="178.0" promptText="Usuario">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </TextField>
+            <AnchorPane prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #83CD48;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="50.0" prefWidth="276.0" text="Iniciar sesión para continuar" textAlignment="CENTER" textFill="#f0f0f0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
