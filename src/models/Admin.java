@@ -36,6 +36,18 @@ public class Admin {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "idPersonal=" + idPersonal +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", userType=" + userType +
+                '}';
+    }
+
     public void setName(String name) {
         this.name = name;
     }

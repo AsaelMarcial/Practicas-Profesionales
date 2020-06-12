@@ -4,14 +4,14 @@ public class Practicing {
     private int idPersonal;
     private String password;
     private String name;
-    private String lasName;
+    private String lastName;
     private String email;
     private int userType;
 
-    public Practicing(String password, String name, String lasName, String email) {
+    public Practicing(String password, String name, String lastName, String email) {
         this.password = password;
         this.name = name;
-        this.lasName = lasName;
+        this.lastName = lastName;
         this.email = email;
         this.userType = 4;
     }
@@ -40,12 +40,12 @@ public class Practicing {
         this.name = name;
     }
 
-    public String getLasName() {
-        return lasName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLasName(String lasName) {
-        this.lasName = lasName;
+    public void setLastName(String lasName) {
+        this.lastName = lasName;
     }
 
     public String getEmail() {

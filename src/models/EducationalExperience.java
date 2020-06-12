@@ -1,14 +1,15 @@
 package models;
 
+import java.io.File;
 import java.util.List;
 
 public class EducationalExperience {
     private int NRC;
     private String name;
     private int professor;
-    private List<Integer> enlistedPractitioners;
+    private File enlistedPractitioners;
 
-    public EducationalExperience(String name, int professor, List<Integer> enlistedPractitioners) {
+    public EducationalExperience(String name, int professor, File enlistedPractitioners) {
         this.name = name;
         this.professor = professor;
         this.enlistedPractitioners = enlistedPractitioners;
@@ -38,11 +39,11 @@ public class EducationalExperience {
         this.professor = professor;
     }
 
-    public List<Integer> getEnlistedPractitioners() {
+    public File getEnlistedPractitioners() {
         return enlistedPractitioners;
     }
 
-    public void setEnlistedPractitioners(List<Integer> enlistedPractitioners) {
+    public void setEnlistedPractitioners(File enlistedPractitioners) {
         this.enlistedPractitioners = enlistedPractitioners;
     }
 }
