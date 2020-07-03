@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="547.0" prefWidth="662.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sistema.de.practicas.profesionales.RegistrarProfesorController">
+  <children>
+    <Label layoutX="87.0" layoutY="46.0" text="Registrar Profesor" underline="true">
+      <font>
+        <Font name="Arial Bold" size="30.0" />
+      </font>
+    </Label>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="324.0" layoutX="87.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="443.0" />
+    <Label layoutX="116.0" layoutY="150.0" text="Nombre:">
+      <font>
+        <Font name="Arial" size="18.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField id="NombreTextField" fx:id="nombreTextField" layoutX="116.0" layoutY="185.0" prefWidth="347.0" />
+    <Label font="$x1" layoutX="116.0" layoutY="234.0" text="No. Personal:" />
+    <TextField fx:id="noPersonalTextField" layoutX="116.0" layoutY="269.0" prefWidth="347.0" />
+    <Label font="$x1" layoutX="118.0" layoutY="313.0" text="Turno:" />
+    <Label font="$x1" layoutX="116.0" layoutY="358.0" text="Contraseña:" />
+    <TextField fx:id="contrasenaTextField" layoutX="116.0" layoutY="392.0" prefWidth="347.0" />
+    <CheckBox fx:id="vespertinoCheckBox" layoutX="339.0" layoutY="314.0" mnemonicParsing="false" text="Vespertino" />
+    <CheckBox fx:id="matutinoCheckBox" layoutX="215.0" layoutY="314.0" mnemonicParsing="false" text="Matutino" />
+    <Button fx:id="registrarButton" layoutX="80.0" layoutY="477.0" mnemonicParsing="false" text="Registrar" />
+    <Button fx:id="cancelarButton" layoutX="445.0" layoutY="477.0" mnemonicParsing="false" text="Cancelar" />
+  </children>
+</AnchorPane>
